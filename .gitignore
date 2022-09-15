@@ -1,0 +1,22 @@
+.ipynb_checkpoints/
+
+# compiled files
+__pycache__/
+*.py[cod]
+
+# .un *.*~ *swp
+*.un
+*~
+*swp
+
+# .h5 files
+*.h5
+
+# files in fig/
+fig/
+
+# files in data/model (too large)
+data/model
+
+# .DS_Store
+*.DS_Store

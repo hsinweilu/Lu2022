@@ -1,0 +1,45 @@
+# matplotlib style for the paper
+# use plt.style.use('./paper.mplstyle') when plotting
+# ref:
+# https://matplotlib.org/stable/tutorials/introductory/customizing.html?highlight=figure.figsize#a-sample-matplotlibrc-file
+#
+# available parameters:
+# https://matplotlib.org/stable/tutorials/introductory/customizing.html
+#
+axes.spines.right : False
+axes.spines.top : False
+
+# for most papers 
+# panel label text:size 10; bold;
+# text size range: 6 - 8
+# linewidth range: 0.5 - 1.5
+# 1 column width: 85 mm (3.34 inch)
+# 1.5 column width: 114 mm (4.48 inch)
+# 2 column width: 174 mm (6.85 inch)
+# the dpi here is for computer display; for publication it should be 300;
+figure.dpi: 150
+figure.constrained_layout.use: True
+font.size: 6
+font.family: sans-serif
+
+font.sans-serif : Arial, Nimbus Sans, Helvetica, sans-serif
+
+axes.titlesize: 6	
+axes.labelsize: 6
+axes.linewidth: 0.5
+axes.labelpad: 3
+
+grid.linestyle: :
+grid.linewidth: 0.5
+
+lines.linewidth: 0.3	
+lines.markersize: 3
+
+xtick.labelsize: 6
+xtick.major.width: 0.6
+xtick.minor.width: 0.5
+ytick.labelsize: 6
+ytick.major.width: 0.6
+ytick.minor.width: 0.5
+
+legend.fontsize: 6
